@@ -1,7 +1,0 @@
-Normal (Just runs once), and keeps the volume at 100%.
-Can be stopped with (in cmd or powershell by running these commands)
-_taskkill /f /im python.exe
-taskkill /f /im powershell.exe_
-or task manager, though it will still start after a reboot of the computer.
-
-The "Fast" version of the two files just does all the things the normal one does, but in a one line command (faster).
