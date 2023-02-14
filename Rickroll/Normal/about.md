@@ -1,4 +1,4 @@
-Normal (Just runs once), and keeps the volume at 100%.
+Just runs once, and keeps the volume at 100%.
 
 Can be stopped with cmd or powershell by running these commands:
 ```
